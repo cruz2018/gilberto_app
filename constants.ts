@@ -1,3 +1,4 @@
+
 export const PROFESSOR_INFO = {
   name: "Gilberto Garcia Cerqueira",
   nickname: "Professor Betinho",
@@ -27,18 +28,19 @@ export const BENEFITS_LIST = [
 ];
 
 // IMAGES CONSTANTS
-// IMPORTANT: Google Drive links (drive.google.com) DO NOT work for website backgrounds because Google blocks them (CORS).
-// To use your specific photo, you MUST upload it to an image host like https://imgur.com/upload 
-// and use the "Direct Link" (which ends in .jpg or .png).
+// IMPORTANT: Google Drive links DO NOT work for websites. Google blocks them.
+// You MUST upload your photos to https://imgur.com/upload and use the "Direct Link" (ending in .jpg/.png).
 export const IMAGES = {
-  // I have restored a working placeholder so the site is visible.
-  // Replace this string ONLY with a direct link from Imgur or similar.
-  heroBackground: "https://imgur.com/a/c07WEpv", 
+  // Hero Background: Action shot of guys training/grappling
+  heroBackground: "https://images.unsplash.com/photo-1605296867304-6f2a492818b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80", 
   
-  // Suggested: Replace this with your Group Photo URL
-  groupPhoto: "https://images.unsplash.com/photo-1517438476312-10d79c077509?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80", 
+  // Team Photo (Full width banner) - User provided image "gil2"
+  teamPhoto: "https://i.imgur.com/LKq73Wi.jpeg",
+
+  // Professor/Group Photo (About section) - Using an action shot to avoid duplication
+  groupPhoto: "https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", 
   
   // Other gallery assets
-  genericAction: "https://images.unsplash.com/photo-1605296867304-6f2a492818b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-  tatami: "https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+  genericAction: "https://images.unsplash.com/photo-1555597673-b21d5c935865?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+  tatami: "https://images.unsplash.com/photo-1564415315949-72504ecd756e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
 };

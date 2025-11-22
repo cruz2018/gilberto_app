@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import TeamPhoto from './components/TeamPhoto';
 import About from './components/About';
 import Schedule from './components/Schedule';
 import Gallery from './components/Gallery';
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
+        <TeamPhoto />
         <About />
         <Schedule />
         <Gallery />

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { CheckCircle, ArrowDown } from 'lucide-react';
 import { BENEFITS_LIST, IMAGES } from '../constants';
@@ -11,6 +12,7 @@ const Hero: React.FC = () => {
         <img 
           src={IMAGES.heroBackground} 
           alt="Background Texture" 
+          referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center"
         />
         {/* Dark overlay to ensure text readability over the logo/poster */}
